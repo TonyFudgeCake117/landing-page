@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,
+     sans-serif;
+     color: red;
+
+}
+
+section{
+    min-height: 100vh;
+    background-image: url("sushi_assets/assets/sushi-12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    height: 80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb76eb;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: rgb(108, 3, 17);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+nav ul li :hover{
+background-color: #eb76eb;
+transition: 0.5 ease;
+}
+
+.article{
+    text-align: center;
+    margin: auto;
+    
+}
